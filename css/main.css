@@ -36,7 +36,7 @@ h1 {
 
 header {
   text-align: center;
-  padding: 2.5rem 1rem;
+  padding: 0rem 1rem;
   font-size: 0.85rem;
 }
 
@@ -47,7 +47,7 @@ section.video {
 section.main {
   max-width: 35rem;
   margin: 0 auto;
-  padding: 3rem 1rem;
+  padding: 2rem 1rem;
   color: #7d7d7d;
   line-height: 1.5em;
   font-size: 0.75rem;
@@ -61,7 +61,7 @@ section.main p {
 /* vidcha.js */
 
 .vidchaVideo {
-  max-width: 60rem;
+  max-width: 80rem;
   width: 100%;
 }
 
@@ -75,7 +75,7 @@ section.main p {
   border-radius: 0.25rem;
   font-size: 1rem;
   cursor: pointer;
-  background: rgba(0, 0, 0, 0.05);
+  background: rgba(5, 5, 5, 0.05);
 }
 
 .vidchaNav > *:hover {
