@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>AV-Timeline Sync</title>
+  <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+
+  <header>
+  
+  </header>
+
+
+</script>
+
+  <!-- html5 video -->
+  <section class="video">
+    <video class="vidchaVideo" poster="assets/explore.jpg" controls>
+      <source src="assets/explore.mp4" type="video/mp4">
+    </video>
+  </section>
+
+  <!-- chapter navigation / set start time in seconds -->
+  <section>
+      <ul class="vidchaNav">
+        <li data-start="0">0-20 Timeline</li>
+        <li data-start="20.0">20-60 Timeline</li>
+        <li data-start="70.0">60-70 Timeline</li>
+        <li data-start="80.0">80 Timeline</li>
+      </ul>
+  </section>
+
+  <section class="main">
+    <p class="credits">
+    
+    </p>
+  </section>
+</body>
+
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script src="js/vidcha.js"></script>
+
+<script>
+  $('video').click(function(){this.paused?this.play():this.pause();});
+</script>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-36251023-1']);
+  _gaq.push(['_setDomainName', 'jqueryscript.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</html>
